@@ -25,6 +25,7 @@ import android.support.v4.view.ViewCompat;
 import android.support.v4.view.ViewPropertyAnimatorListenerAdapter;
 import android.util.AttributeSet;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.View;
 import android.view.ViewAnimationUtils;
 import android.view.ViewGroup;
@@ -147,6 +148,8 @@ public class BottomBar extends LinearLayout implements View.OnClickListener, Vie
         if (tabXmlResource != 0) {
             setItems(tabXmlResource);
         }
+        setBackgroundResource(R.drawable.bb_bottom_bar_bg_resource);
+        setGravity(Gravity.CENTER);
     }
 
     @Override
