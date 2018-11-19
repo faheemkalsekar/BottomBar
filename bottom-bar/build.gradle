@@ -34,6 +34,12 @@ android {
         debug {
             testCoverageEnabled true
         }
+        qa{
+
+        }
+        release{
+
+        }
     }
 
     defaultConfig {
