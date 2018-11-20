@@ -8,11 +8,11 @@
 
     <android.support.v7.widget.AppCompatImageView
         android:id="@+id/bb_bottom_bar_icon"
-        android:layout_width="72dp"
-        android:layout_height="72dp"
-        android:layout_gravity="center"
         android:paddingTop="16dp"
-        android:paddingBottom="16dp" />
+        android:paddingBottom="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"/>
 
     <TextView
         android:id="@+id/bb_bottom_bar_title"
