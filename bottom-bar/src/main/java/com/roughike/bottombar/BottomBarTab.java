@@ -99,7 +99,7 @@ public class BottomBarTab extends LinearLayout {
         iconView = (AppCompatImageView) findViewById(R.id.bb_bottom_bar_icon);
         iconView.setImageResource(iconResId);
 
-        if (type != Type.TABLET && !isTitleless) {
+        if (/*type != Type.TABLET && */!isTitleless) {
             titleView = (TextView) findViewById(R.id.bb_bottom_bar_title);
             titleView.setVisibility(VISIBLE);
 
